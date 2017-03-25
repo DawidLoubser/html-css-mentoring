@@ -5,10 +5,16 @@ will be populated on the fly, to efficiently share code samples with the group.
 
 # Outline (4-hour session)
 
+## Context
+
+* The Web Browser and the DOM
+* The HTTP Protocol
+
 ## HTML
 
 * Typography
 * Forms
+  - Using browser tools to inspect requests
 * Images and media
 * General app development
   - None! Need to add semantics and styling with CSS classes
