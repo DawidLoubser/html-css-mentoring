@@ -3,27 +3,38 @@
 
 <head>
     <title>My page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="basic-form.css">
 </head>
 
 <body>
-    <h1>Hello</h1>
+    <h1><i class="material-icons">face</i> Hello</h1>
     <p>This is a paragraph, with a <a href="#">link</a> to nowhere.
 
         <form method="POST" action="http://localhost:3000/something">
-            <fieldset>
+            <fieldset class="container">
                 <legend>Place order</legend>
-                <label>Item:</label>
-                <select name="product">
-                        <option value="1">Apple</option>
-                        <option value="2">Orange</option>
-                        <option value="3">Grapes</option>
+                <div class="row">
+                    <label class="col-xs-12 col-sm-6">Item:</label>
+                    <select name="product" class="col-xs-12 col-sm-6">
+                            <option value="1">Apple</option>
+                            <option value="2">Orange</option>
+                            <option value="3">Grapes</option>
                     </select>
-                <label>Qty:</label>
-                <input type="number" name="qty" />
-                <label>Confirmation email:</label>
-                <input type="email" name="confirmation_mail" />
-                <button type="submit">Place order</button>
+                </div>
+                <div class="row">
+                    <label class="col-xs-12 col-sm-6">Qty:</label>
+                    <input class="col-xs-12 col-sm-6" type="number" name="qty" />
+                </div>
+                <div class="row">
+                    <label class="col-xs-12 col-sm-6">Confirmation email:</label>
+                    <input class="col-xs-12 col-sm-6" type="email" name="confirmation_mail" />
+                </div>
+                <div>
+                    <button type="submit">Place order</button>
+                </div>
             </fieldset>
         </form>
 
@@ -33,7 +44,9 @@
                 <legend>Google image search</legend>
                 <input type="text" name="q" />
                 <input type="hidden" name="tbm" value="isch" />
-                <button type="submit">Search images</button>
+                <button type="submit">
+                    <i class="material-icons">search</i>
+                    Search images</button>
             </fieldset>
         </form>
 

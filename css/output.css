@@ -1,0 +1,64 @@
+body {
+  font-family: Roboto normal;
+  color: #333; }
+
+h1 {
+  margin: 1em; }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    color: #996633; }
+  50% {
+    transform: rotate(180deg);
+    color: #336699; }
+  100% {
+    transform: rotate(360deg);
+    color: #996633; } }
+h1 i.material-icons {
+  color: #336699;
+  font-size: 2em;
+  animation: 5s linear infinite spin; }
+
+/** Only on a big screen */
+@media (min-width: 10000px) {
+  body {
+    padding-right: 18em; }
+
+  .imageSearch {
+    background-color: white;
+    box-shadow: 2px 2px 15px #777;
+    border-radius: 1em;
+    width: 15em;
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    overflow: hidden; }
+    .imageSearch fieldset {
+      border: none;
+      margin: 0;
+      padding: 0; }
+      .imageSearch fieldset input, .imageSearch fieldset button {
+        display: block;
+        width: 100%; }
+      .imageSearch fieldset legend {
+        text-align: center;
+        color: white;
+        background-color: #999;
+        width: 100%;
+        padding: 1em 0; }
+      .imageSearch fieldset button {
+        background-color: #336699;
+        color: white;
+        padding: 1em 0;
+        border: none; }
+        .imageSearch fieldset button:hover {
+          background-color: #663399;
+          cursor: pointer; }
+      .imageSearch fieldset input {
+        border: none;
+        border-bottom: 2px solid #CCC;
+        padding: 0.5em 0;
+        margin: 3em 0; } }
+
+/*# sourceMappingURL=output.css.map */
