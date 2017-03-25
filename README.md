@@ -9,6 +9,7 @@ will be populated on the fly, to efficiently share code samples with the group.
 
 * The Web Browser and the DOM
 * The HTTP Protocol
+* Web Development tools
 
 ## HTML
 
