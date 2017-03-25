@@ -46,7 +46,7 @@ will be populated on the fly, to efficiently share code samples with the group.
   - [FontAwesome](http://fontawesome.io)
   - [Google Material Design Icons](https://material.io/icons/)
 * Interactivity
-* Animation
+* [CSS Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
 * Media queries
   - Responsive grids ([Bootstrap](http://getbootstrap.com/css/) / [Foundation](http://foundation.zurb.com/sites/docs/) / [Native CSS Grid - 2017+](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout))
   - Mobile-first design
