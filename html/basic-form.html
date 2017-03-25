@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My page</title>
+    </head>
+    <body>
+        <h1>Hello</h1>
+        <p>This is a paragraph, with
+            a <a href="#">link</a> to nowhere.
+
+        <form method="POST" action="http://localhost:3000/something">
+            <fieldset>
+                <legend>Place order</legend>
+                <div>
+                    <label>Item:</label>
+                    <select name="product">
+                        <option>Apple</option>
+                        <option>Orange</option>
+                        <option>Grapes</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Qty:</label>                
+                    <input type="number" name="qty" />
+                </div>
+                <div>
+                    <label>Confirmation email:</label>                
+                    <input type="email" name="confirmation_mail"/>
+                </div>
+                <div>
+                    <button type="submit">Place order</button>
+                </div>
+            </fieldset>
+        </form>            
+
+
+        <form action="https://www.google.com/search">
+            <fieldset>
+                <legend>Google image search</legend>
+                <input type="text" name="q" />
+                <input type="hidden" name="tbm" value="isch"/>
+                <button type="submit">Search images</button>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
