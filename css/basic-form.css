@@ -1,0 +1,51 @@
+body {
+    font-family: Roboto;
+    color: #333;
+    padding-right: 16em;
+    font-size: 20px;
+}
+
+a {
+    /*display: block;*/
+    /*border: 1px solid red;*/
+}
+
+h1 {
+  /*border: 2px dashed blue;*/
+  margin: 1em;  
+}
+
+.imageSearch {
+    border: 1px solid red;
+    background-color: white;
+    /*box-shadow: 2px 2px 15px black;
+    border-radius: 1em;*/
+    width: 15em;
+    position: fixed;
+    top: 1em;
+    right: 1em;
+}
+
+.imageSearch * {
+    border: 1px solid red;
+}
+
+.imageSearch fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.imageSearch input, .imageSearch button {
+    display: block;
+    width: 100%;
+}
+
+.imageSearch legend {
+    text-align: center;
+    color: white;
+    background-color: #999;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
