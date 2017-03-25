@@ -51,6 +51,12 @@ will be populated on the fly, to efficiently share code samples with the group.
   - Responsive grids ([Bootstrap](http://getbootstrap.com/css/) / [Foundation](http://foundation.zurb.com/sites/docs/) / [Native CSS Grid - 2017+](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout))
   - Mobile-first design
 
+## Beyond CSS
+
+* [Sass](http://sass-lang.com/guide)
+  - Adds computation, re-use of concepts
+  - Not supported in browsers, compile to CSS with `sass`
+
 
 # Resources
 
